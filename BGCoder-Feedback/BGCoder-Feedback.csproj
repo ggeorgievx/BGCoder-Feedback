@@ -38,6 +38,7 @@
     <Compile Include="BGCoder-Feedback.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SlackClient.cs" />
+    <Compile Include="Payload.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
