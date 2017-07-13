@@ -57,7 +57,7 @@ namespace BGCoderFeedback {
             int lineContainingScore = -1;
             while (true) {
                 currentLine = objReader.ReadLine();
-                if (currentLine != null) {
+                if (currentLine == null) {
                     break;
                 }
                 if (currentLine != null && currentLine.Contains(@"/Users/Profile?")) {
