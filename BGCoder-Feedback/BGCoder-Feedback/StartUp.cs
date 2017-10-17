@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 namespace BGCoderFeedback
 {
-    public static class BGCoderFeedback
+    public static class StartUp
     {
         private static List<string> users = new List<string>();
         private static List<int> scores = new List<int>();
